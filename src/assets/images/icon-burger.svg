@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28pt" height="23pt" viewBox="0 0 28 23" version="1.1">
+<defs>
+<clipPath id="clip2">
+  <path d="M 0 0 L 28 0 L 28 5 L 0 5 Z M 0 0 "/>
+</clipPath>
+<clipPath id="clip3">
+  <path d="M 28 1.242188 C 28 0.5 27.535156 0 26.832031 0 L 1.167969 0 C 0.464844 0 0 0.5 0 1.242188 L 0 3.75 C 0 4.5 0.464844 5 1.167969 5 L 26.832031 5 C 27.535156 5 28 4.5 28 3.75 Z M 28 1.242188 "/>
+</clipPath>
+<clipPath id="clip4">
+  <path d="M 0 9 L 28 9 L 28 14 L 0 14 Z M 0 9 "/>
+</clipPath>
+<clipPath id="clip5">
+  <path d="M 28 10.25 C 28 9.5 27.535156 9 26.832031 9 L 1.167969 9 C 0.464844 9 0 9.5 0 10.25 L 0 12.75 C 0 13.5 0.464844 14 1.167969 14 L 26.832031 14 C 27.535156 14 28 13.5 28 12.75 Z M 28 10.25 "/>
+</clipPath>
+<clipPath id="clip6">
+  <path d="M 0 18 L 28 18 L 28 23 L 0 23 Z M 0 18 "/>
+</clipPath>
+<clipPath id="clip7">
+  <path d="M 28 19.25 C 28 18.5 27.535156 18 26.832031 18 L 1.167969 18 C 0.464844 18 0 18.5 0 19.25 L 0 21.75 C 0 22.5 0.464844 23 1.167969 23 L 26.832031 23 C 27.535156 23 28 22.5 28 21.75 Z M 28 19.25 "/>
+</clipPath>
+<clipPath id="clip1">
+  <rect width="28" height="23"/>
+</clipPath>
+<g id="surface4" clip-path="url(#clip1)">
+<g clip-path="url(#clip2)" clip-rule="nonzero">
+<g clip-path="url(#clip3)" clip-rule="evenodd">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M -5 10 L 33 10 L 33 -5 L -5 -5 Z M -5 10 "/>
+</g>
+</g>
+<g clip-path="url(#clip4)" clip-rule="nonzero">
+<g clip-path="url(#clip5)" clip-rule="evenodd">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M -5 19 L 33 19 L 33 4 L -5 4 Z M -5 19 "/>
+</g>
+</g>
+<g clip-path="url(#clip6)" clip-rule="nonzero">
+<g clip-path="url(#clip7)" clip-rule="evenodd">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M -5 28 L 33 28 L 33 13 L -5 13 Z M -5 28 "/>
+</g>
+</g>
+</g>
+</defs>
+<g id="surface1">
+<use xlink:href="#surface4"/>
+</g>
+</svg>
