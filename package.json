@@ -6,8 +6,10 @@
   "main": "src/index.js",
   "scripts": {
     "test": "jest",
-    "start": "webpack-dev-server --mode development --open --hot",
-    "build": "webpack --mode production"
+    "dev": "webpack-dev-server --mode development",
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production",
+    "heroku-postbuild": "npm run build"
   },
   "author": "",
   "license": "MIT",
@@ -36,13 +38,14 @@
     "react-dom": "^16.8.6",
     "react-input-mask": "^2.0.4",
     "react-router": "^5.0.0",
-    "react-router-dom": "^5.0.0"
+    "react-router-dom": "^5.0.0",
+    "serve": "^11.0.0"
   },
   "jest": {
-     "globals": {
-         "__DEV__": true
-     },
-     "testRegex": "./src/tests/.*.js$",
-     "rootDir": "."
+    "globals": {
+      "__DEV__": true
+    },
+    "testRegex": "./src/tests/.*.js$",
+    "rootDir": "."
   }
 }
