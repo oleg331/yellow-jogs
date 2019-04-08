@@ -1,7 +1,7 @@
 {
   "name": "yellowtesting",
   "version": "1.0.0",
-  "homepage": "http://olegpetrush.000webhostapp.com/yellow/",
+  "homepage": "https://yellowjogs.herokuapp.com/",
   "description": "",
   "main": "src/index.js",
   "scripts": {
