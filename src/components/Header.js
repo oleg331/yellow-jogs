@@ -13,11 +13,18 @@ class Header extends Component {
 
     this.toggleBurger = this.toggleBurger.bind(this);
     this.toggleSort = this.toggleSort.bind(this);
+    this.removeBurger = this.removeBurger.bind(this);
   }
 
   toggleBurger() {
     this.setState({
       activeBurger: this.state.activeBurger ? false : true
+    });
+  }
+
+  removeBurger() {
+    this.setState({
+      activeBurger: false
     });
   }
 
@@ -33,6 +40,7 @@ class Header extends Component {
       <header id="header">
         <div className="header__wrapper">
           <Link
+            onClick={this.removeBurger}
             id="logo"
             className={this.state.activeBurger && "active"}
             to="/"
